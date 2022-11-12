@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch The Insect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch The Insect</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your "favorite" fruts?</h1>
+        <ul class="insects-list"> 
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Pomegranate</p>
+                    <img src="images.png" alt="pomegranate">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Strawberry</p>
+                    <img 
+                       src="1.png" alt="strawberry"
+                       />
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Ananas</p>
+                    <img
+                       src="a.png" 
+                       alt="ananas"
+                       />
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Orange</p>
+                    <img 
+                       src="ap.png" 
+                       alt="orange"
+                       />
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You are playing an impossinle game!!
+        </h5>
+    </div>
+
+    <script src="mini.js"></script>
+</body>
+</html>
